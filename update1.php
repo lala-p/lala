@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <title>성적 관리 프로그램 [학생 정보 수정]</title>
-        <script type="text/javascript" src="bbb.js"></script>
+        <script type="text/javascript" src="jjj.js"></script>
         <link rel="stylesheet" type="text/css" href=vava.css> 
 
     </head>

@@ -3,27 +3,26 @@
 
     <head>
         <meta charset="utf-8">
-        <title>성적 관리 프로그램 [성적 수정]</title>       
-        <script type="text/javascript" src="bbb.js"></script>
+        <title>성적 관리 프로그램 [성적 기입]</title>       
+        <script type="text/javascript" src="jjj.js"></script>
         <link rel="stylesheet" type="text/css" href=vava.css> 
 
     </head>
 
     <body>
 
-        <div id="subTitle"> 학생 성적 수정 </div>
+        <div id="subTitle"> 성적 기입 </div>
         <div id="data">
 			
 			
 			<form method="GET" action="grade_event.php" id="fo">	
 				<table>
-                
-        
+				
 					<tr>
 						<td>학번</td>
 						<td>:</td>
 						<td>
-							<input type="text" id="no" name="no" value="<? echo $_GET['no']; ?>" readonly="readonly">
+							<input type="text" id="no" name="no" placeholder="학번을 입력하세요">
 						</td>				
 					
 					</tr>
@@ -80,7 +79,7 @@
 					
 					<tr>
 						<td colspan="3">
-							<input type="hidden" name="do" value="update">						
+							<input type="hidden" name="do" value="insert">						
 							<button type="button" onclick="insert2Fo()">기입하기</button>
 							<button type="reset">초기화</button>
 						</td>

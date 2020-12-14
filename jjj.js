@@ -9,11 +9,11 @@ window.onload = function(){
 
     var navTag = document.createElement("nav");
 
-    navTag.appendChild(create_aTag("home", "index.html"));
-    navTag.appendChild(create_aTag("학생 등록", "insert1.html"));
-    navTag.appendChild(create_aTag("학생 조회", "select1.html"));
-    navTag.appendChild(create_aTag("성적 기입", "insert2.html"));
-    navTag.appendChild(create_aTag("성적 조회", "select2.html"));
+    navTag.appendChild(create_aTag("home", "index.php"));
+    navTag.appendChild(create_aTag("학생 등록", "insert1.php"));
+    navTag.appendChild(create_aTag("학생 조회", "select1.php"));
+    navTag.appendChild(create_aTag("성적 기입", "insert2.php"));
+    navTag.appendChild(create_aTag("성적 조회", "select2.php"));
 
 
     var secTag = document.createElement("section");
