@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+
+header{
+
+    height: 70px;
+    padding-top: 40px;
+    color: white;
+    text-align: center;
+    background-color: rgb(75, 107, 212);
+
+}
+
+
+
+nav{
+
+    color: white;
+    text-align: center;
+    background-color: rgb(172, 116, 236);
+}
+
+
+footer{
+
+    color: white;
+    background-color: rgb(22, 33, 199);
+
+}
