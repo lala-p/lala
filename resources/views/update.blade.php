@@ -16,10 +16,10 @@
 <form method="POST" action="/update/member" id="updateFo">
 @csrf
 
-    <table border="1">
+    <table border="1" width="600px">
 
         <tr>
-            <th>회원번호(자동발생)</th>
+            <th width="40%">회원번호(자동발생)</th>
             <td> <input type="text" id="custno" name="custno" value="{{ $cust->custno }}" readonly="readonly" style="width: 100px;"> </td>
         </tr>
 
